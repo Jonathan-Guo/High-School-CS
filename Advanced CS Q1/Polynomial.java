@@ -1,0 +1,9 @@
+public interface Polynomial
+{
+   public int getDegree ();
+   public double getCoeff (int x);
+   public double evaluate (double x);
+   public Polynomial plus (Polynomial p);
+   public Polynomial minus (Polynomial p);
+   public Polynomial differentiate ();
+}

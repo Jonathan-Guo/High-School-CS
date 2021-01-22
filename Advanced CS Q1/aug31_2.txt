@@ -1,0 +1,16 @@
+   s1 = sc.nextLine();
+      while (sc.hasNext())
+      {
+         s2 = sc.nextLine();
+         if (s2.length() > 0 && s2.charAt(s2.length() - 1) == '{') 
+         {
+            list.add(s1 + "{");
+            s1 = sc.nextLine();
+         }
+         else 
+         {
+            list.add(s1);
+            s1 = s2;
+         }
+      }   
+      
